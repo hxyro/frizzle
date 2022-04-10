@@ -11,7 +11,7 @@ frizzle = "5MhHEjob4xzwmWioHPw9DJccaefogEfdRsD9vAMiN7vt"
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/xd/.config/solana/id.json"
 
 [scripts]
