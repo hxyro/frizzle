@@ -96,7 +96,7 @@ const send = async () => {
           :class="canMsg ? 'bg-green-500' : 'bg-green-300 cursor-not-allowed'"
           @click="send"
         >
-          Msg
+          Zfreez
         </button>
       </div>
     </div>
