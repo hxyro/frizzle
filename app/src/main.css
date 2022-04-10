@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000000;
+  background-image: url("assets/solanaShape1-full.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  filter: blur(100px);
+}
+
+#app {
+  color: white;
+  background: #000000;
+  opacity: 90%;
+  background-blend-mode: color-burn;
+}
+
+.swv-dropdown {
+  @apply w-full;
+}
+
+.swv-button {
+  @apply rounded-full w-full;
+}
+
+.swv-button-trigger {
+  @apply bg-green-500 justify-center !important;
+}
+
+.swv-dropdown-list {
+  @apply top-auto bottom-full;
+}
+
+.swv-dropdown-list-active {
+  @apply transform -translate-y-3 md:translate-y-3;
+}
